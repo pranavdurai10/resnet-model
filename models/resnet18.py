@@ -5,8 +5,7 @@ Code written by Pranav Durai on 23.05.2023 @ 23:41:54
 ResNet Model Implementation
 
 Model: ResNet18
-Framework: PyTorch
-
+Framework: PyTorch 2.0
 /////////////////////////////////////
 '''
 
