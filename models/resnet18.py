@@ -95,10 +95,3 @@ class ResNet18(nn.Module):
         out = self.fc(out)
 
         return out
-
-
-# Create an instance of the ResNet18
-model = ResNet18()
-
-# Print to view the model architecture - Optional
-print(model)
