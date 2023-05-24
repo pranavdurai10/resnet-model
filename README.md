@@ -1,4 +1,4 @@
-# Resnet Model Library
+# ResNet Model Library
  
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -17,3 +17,15 @@ Link to paper: https://arxiv.org/abs/1512.03385.
 5. ResNet152    [YET TO IMPLEMENT]
 6. ResNet164    [YET TO IMPLEMENT]
 7. ResNet1202   [YET TO IMPLEMENT]
+
+## Training
+
+This repository contains a training script named as train.py in the root directory.
+
+As default, it has been set to perform the following operations:
+1. General Data Preprocessing: Image Augmentations
+2. Load Dataset: CIFAR10 (default)
+3. Define Dataloaders: For BatchSize, Shuffle, and Workers
+4. Training Loop: 10 Epochs (default)
+5. Validations Metrics: Display
+6. Export Trained Model
