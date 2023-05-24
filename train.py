@@ -15,6 +15,7 @@ import torch.optim as optim
 from torchvision import transforms, datasets
 from torch.utils.data import DataLoader
 from models.resnet18 import ResNet18
+from models.resnet34 import ResNet34
 
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -35,7 +36,7 @@ valid_dataset = datasets.CIFAR10(root="./data", train=False, download=True, tran
 train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True, num_workers=4)
 valid_loader = DataLoader(valid_dataset, batch_size=64, shuffle=False, num_workers=4)
 
-# Create an instance of ResNet18
+# Create an instance of ResNet model - Replace based on the model requirement
 model = ResNet18().to(device)
 
 # Define loss function and optimizer
