@@ -10,6 +10,9 @@ The ResNet model was first proposed in Deep Residual Learning for Image Recognit
 Link to paper: https://arxiv.org/abs/1512.03385.
 
 ## Models
+
+There are 7 implementations of ResNet:
+
 1. ResNet18     [DONE]
 2. ResNet34     [YET TO IMPLEMENT]
 3. ResNet50     [YET TO IMPLEMENT]
