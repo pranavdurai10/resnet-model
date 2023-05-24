@@ -9,7 +9,7 @@ This is an un-official repository that contains multiple PyTorch implementations
 The ResNet model was first proposed in Deep Residual Learning for Image Recognition by Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun.
 Link to paper: https://arxiv.org/abs/1512.03385.
 
-Models:
+## Models
 1. ResNet18     [DONE]
 2. ResNet34     [YET TO IMPLEMENT]
 3. ResNet50     [YET TO IMPLEMENT]
