@@ -1,2 +1,2 @@
-# resnet-model
+# Resnet Model Library
  
