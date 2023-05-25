@@ -52,7 +52,7 @@ class BasicBlock(nn.Module):
 
 # Define the ResNet18 model
 class ResNet18(nn.Module):
-    def __init__(self, num_classes=1000):
+    def __init__(self, num_classes=10):
         super(ResNet18, self).__init__()
         self.in_channels = 64
 
