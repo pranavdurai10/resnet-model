@@ -16,8 +16,7 @@ from models.resnet18 import ResNet18
 from models.resnet34 import ResNet34
 from PIL import Image
 
-
-# Load the pretrained ResNet-18 model
+# Load the pretrained ResNetModel of choice from directory
 model = ResNet18()
 model.load_state_dict(torch.load('resnet18.pth'))
 model.eval()
