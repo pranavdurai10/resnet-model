@@ -14,7 +14,7 @@ Link to paper: https://arxiv.org/abs/1512.03385.
 There are 7 implementations of ResNet. Have a look at each of their definitions inside the 'models' directory.
 
 1. ResNet18     [DONE]
-2. ResNet34     [YET TO IMPLEMENT]
+2. ResNet34     [DONE]
 3. ResNet50     [YET TO IMPLEMENT]
 4. ResNet101    [YET TO IMPLEMENT]
 5. ResNet152    [YET TO IMPLEMENT]
